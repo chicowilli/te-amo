@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 Para Mi Amor 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Efectos de fondo -->
+    <div class="hearts-container"></div>
+    <div class="confetti-container"></div>
+
+    <!-- Sección de inicio -->
+    <section class="intro-section">
+        <div class="intro-content">
+            <h1 class="main-title">Hola Mi Amor 💕</h1>
+            <p class="subtitle">Esta página fue hecha especialmente para ti...</p>
+            <button class="btn-start">Haz clic aquí para continuar ✨</button>
+        </div>
+    </section>
+
+    <!-- Sección principal -->
+    <section class="main-content" style="display: none;">
+        
+        <!-- Mensaje de bienvenida -->
+        <div class="welcome-section">
+            <div class="welcome-card">
+                <h2>Mi amor por ti 💓</h2>
+                <p class="welcome-text">
+                    Quería crear algo especial para usted, algo que represente todo lo que sientes para mí.
+                    En esta página encontrarás momentos especiales, mensajes de amor y mucho más.
+                </p>
+            </div>
+        </div>
+
+        <!-- Galería de fotos -->
+        <div class="gallery-section">
+            <h2>Nuestros Momentos Especiales 📸</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="foto1.jpg" alt="Un momento especial" class="gallery-photo">
+                    <p>Te Amo </p>
+                </div>
+                <div class="gallery-item">
+                    <img src="foto2.jpg" alt="Contigo siempre" class="gallery-photo">
+                    <p>Mucho </p>
+                </div>
+                <div class="gallery-item">
+                    <img src="foto3.jpg" alt="Recuerdo hermoso" class="gallery-photo">
+                    <p>Mi</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="foto4.jpg" alt="Te amo" class="gallery-photo">
+                    <p>Amorcito</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Razones por las que te amo -->
+        <div class="reasons-section">
+            <h2>Razones Por Las Que Te Amo 💗</h2>
+            <div class="reasons-container">
+                <div class="reason-card">
+                    <span class="reason-number">01</span>
+                    <h3>Tu Sonrisa</h3>
+                    <p>Illumina cada uno de mis días</p>
+                </div>
+                <div class="reason-card">
+                    <span class="reason-number">02</span>
+                    <h3>Tu Bondad</h3>
+                    <p>Haces del mundo un lugar mejor</p>
+                </div>
+                <div class="reason-card">
+                    <span class="reason-number">03</span>
+                    <h3>Tu Risa</h3>
+                    <p>Es la música más bella</p>
+                </div>
+                <div class="reason-card">
+                    <span class="reason-number">04</span>
+                    <h3>Tu Amor</h3>
+                    <p>Es lo más importante para mí</p>
+                </div>
+                <div class="reason-card">
+                    <span class="reason-number">05</span>
+                    <h3>Tu Presencia</h3>
+                    <p>Hace especial cada momento</p>
+                </div>
+                <div class="reason-card">
+                    <span class="reason-number">06</span>
+                    <h3>Todo en Ti</h3>
+                    <p>Te amo completamente</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contador de días juntos -->
+        <div class="counter-section">
+            <h2>Nuestro Contador 📅</h2>
+            <div class="counter-box">
+                <p class="counter-label">Cambie la fecha de cuando nos conocimos:</p>
+                <input type="date" id="startDate" class="date-input">
+                <div class="time-display">
+                    <div class="time-item">
+                        <span class="time-value" id="days">0</span>
+                        <span class="time-label">Días</span>
+                    </div>
+                    <div class="time-item">
+                        <span class="time-value" id="hours">0</span>
+                        <span class="time-label">Horas</span>
+                    </div>
+                    <div class="time-item">
+                        <span class="time-value" id="minutes">0</span>
+                        <span class="time-label">Minutos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección interactiva -->
+        <div class="interactive-section">
+            <h2>Presiona los Corazones 💝</h2>
+            <p class="interactive-text">Haz clic en los corazones para ver mensajes especiales</p>
+            <div class="hearts-interactive">
+                <button class="interactive-heart" data-message="Te amo con todo mi corazón mi amor ❤️">💕</button>
+                <button class="interactive-heart" data-message="Eres lo mejor que me pasó en la vida 🌟">💕</button>
+                <button class="interactive-heart" data-message="Contigo quiero envejecer 👑">💕</button>
+                <button class="interactive-heart" data-message="Cada día a su lado es un regalo 🎁">💕</button>
+            </div>
+            <div class="message-display">
+                <p id="messageDisplay"></p>
+            </div>
+        </div>
+
+        <!-- Sección de dedicatoria -->
+        <div class="dedication-section">
+            <h2>Tu Dedicatoria Especial 🎵</h2>
+            <div class="dedication-box">
+                <p>Para la persona más especial del mundo,</p>
+                <p>Quería que supiera que cada día con usted es un privilegio.</p>
+                <p>su sonrisa es mi motivación, su risa es mi felicidad,</p>
+                <p>y su amor es todo lo que necesito.</p>
+                <p>Te amo más de lo que las palabras pueden expresar.</p>
+                <p class="dedication-sign">Con todo mi amor ❤️</p>
+            </div>
+        </div>
+
+        <!-- Botón especial final -->
+        <div class="final-section">
+            <button class="btn-final">¿Me da un beso? 😘</button>
+            <p class="final-message" id="finalMessage"></p>
+        </div>
+    </section>
+
+    <script src="java.js"></script>
+</body>
+</html>
